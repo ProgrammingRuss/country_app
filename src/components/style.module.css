@@ -1,0 +1,89 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    gap: 30px;
+    justify-content: center;
+    padding: 25px;
+}
+.card{
+  
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;  
+    border-radius: 6px;
+    background-color: rgb(234, 227, 227);
+}
+.country{
+    margin: 10px auto;
+    padding: 7px;
+    width: fit-content;
+
+ 
+}
+.country img{
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: .2s;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+}
+.country img:hover{
+    transform: scale(1.011);
+}
+span{
+    color: orange;
+}
+p span{
+    color: rgb(93, 114, 248);
+}
+.info {
+color: rgb(37, 37, 37);
+padding: 10px;
+font-size: 18px;
+
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(247, 117, 56);
+}
+h2{
+margin-top: 30px;
+font-size: 30px;
+    text-align: center;
+}
+.info h2{
+    margin: 5px;
+}
+.info p{
+    margin-bottom: 5px;
+}
+.country button{
+    border: 0;
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: .2s;
+    border: 1px solid rgb(222, 142, 218);
+}
+.country button:hover {
+    background-color: red;
+    color: white;
+    font-weight: 600;
+}
+/*  */
+
+.search input{
+    display: block;
+    margin: 20px auto 0px;
+    border-radius: 7px;
+    font-size: 20px;
+    border: 0;
+    padding: 15px;
+    outline: 0;
+}
+.search input:focus{
+outline: 2px solid orange;
+}
