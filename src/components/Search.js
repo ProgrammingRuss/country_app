@@ -9,7 +9,7 @@ const Search = (props) => {
   };
   useEffect(() => {
     searchCountry(searchText);
-  });
+  }, [searchText]);
 
   return (
     <div className={style.search}>
