@@ -9,7 +9,8 @@ const Search = (props) => {
   };
   useEffect(() => {
     searchCountry(searchText);
-  }, [searchText]);
+    //eslint-disable-next-line
+  },[searchText]);
 
   return (
     <div className={style.search}>
